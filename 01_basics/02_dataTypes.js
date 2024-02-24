@@ -44,4 +44,5 @@ let loggedIn = true
 console.log(typeof "Sameer")
 console.log(typeof null)
 console.log(typeof undefined)
+console.log(typeof loggedIn)
 
