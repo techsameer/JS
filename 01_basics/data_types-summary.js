@@ -24,7 +24,7 @@ const bigNumber = 3456789456123789451221245n
 console.log(typeof bigNumber);
 
 // ***********************************************
-
+ 
 // Non Primitive => Reference type
 
 /*
@@ -57,3 +57,28 @@ const myFunction = function(){
 
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+// +++++++++++++++++++++++++++++++++++++++++++
+
+//Stack memory(Primitive), Heap (Non-Primitive)
+
+let myGithubName = "techsameer"
+
+let anotherName = myGithubName
+anotherName = "sameer"
+
+console.log(anotherName);            // sameer
+console.log(myGithubName);           // techsameer
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "sameer@google.com"
+
+console.log(userOne.email)
+console.log(userTwo.email);
