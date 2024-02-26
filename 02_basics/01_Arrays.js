@@ -5,7 +5,7 @@ const myHeros = ["shaktiman", "naagraj"]
 
 const myArr2 = new Array(1, 2, 3, 4)
 
-// console.log(myArr[0]);
+console.log(myArr[0]);
 
 // Array copy opertion creates shallow copies of array
 // Shallow copies means the reference is shared instead of values
@@ -16,22 +16,22 @@ const myArr2 = new Array(1, 2, 3, 4)
 
 // Array Methods
 
-// myArr.push(6)
-// myArr.push(7)
-// console.log(myArr);
+myArr.push(6)
+myArr.push(7)
+console.log(myArr);
 
 
-// myArr.unshift(0)        //Adds element in front
-// // myArr.pop()             // Removes element from back
-// console.log(myArr)
+myArr.unshift(0)        //Adds element in front
+// myArr.pop()             // Removes element from back
+console.log(myArr)
 
-// myArr.shift() // Removes element from front
-// console.log(myArr);    
+myArr.shift()       // Removes element from front
+console.log(myArr);    
 
-// console.log(myArr.includes(9));         // true or false
+console.log(myArr.includes(9));         // true or false
 
-// const newArr = myArr.join()
-// console.log(newArr);                    // Converts to string
+const newArr = myArr.join()
+console.log(newArr);                    // Converts to string
 
 // slice, splice
 
