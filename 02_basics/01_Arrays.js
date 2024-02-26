@@ -33,7 +33,7 @@ console.log(myArr.includes(9));         // true or false
 const newArr = myArr.join()
 console.log(newArr);                    // Converts to string
 
-// slice, splice
+// slice, splice operations
 
 console.log("A ", myArr);
 const myn1 = myArr.slice(1, 3)
