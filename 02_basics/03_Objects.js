@@ -8,12 +8,12 @@ const mySym = Symbol("key1")
 
 
 const JsUser = {
-    name: "Hitesh",
-    "full name": "Hitesh Choudhary",
+    name: "Sameer",
+    "full name": "Sameer Kumar",
     [mySym]: "mykey1",
     age: 18,
-    location: "Jaipur",
-    email: "hitesh@google.com",
+    location: "Kolkata",
+    email: "sameer@google.com",
     isLoggedIn: false,
     lastLoginDays: ["Monday", "Saturday"]
 }
