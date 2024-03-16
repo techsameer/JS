@@ -10,17 +10,17 @@ function user(email, password){
             this.email = value
         }
     })
+
+
+    Object.defineProperty(this, 'password', {
+        get: function(){
+            return this._password.toUpperCase()
+        },        
+        set: function(value){
+            this._password = value
+        }
+    })
 }
-
-
-Object.defineProperty(this, 'password', {
-    get: function(){
-        return this._password.toUpperCase()
-    },        
-    set: function(value){
-        this._password = value
-    }
-})
 
 const user1 = new user("test@random.com", "abc")
 console.log(user1.email);
